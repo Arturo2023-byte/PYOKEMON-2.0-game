@@ -1,0 +1,38 @@
+[level]
+tileset = maps/laboratorio.png
+map = #################
+      #################
+      ########....#####
+      #...............#
+      #...............#
+      ###......o.######
+      ###......########
+      ###.....o#s.r.b##
+      ##g......o.....##
+      #g.............##
+      #.......I......##
+      #######ppp.######
+
+scale = 1
+velocidad = 0
+iniciox = 0
+inicioy = 0
+
+[.]
+name = floor
+tile = 0, 3
+
+[#]
+name = wall
+wall = True
+
+[O]
+name = profesorOak
+
+[P]
+name = pokebola
+state = True
+
+[E]
+name = exit
+state = False

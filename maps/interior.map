@@ -1,0 +1,38 @@
+[level]
+tileset = maps/interior.png
+map = ################
+      ################
+      ################
+      ######.......I..
+      ................
+      ................
+      ........##......
+      ........##......
+      ................
+      #..............#
+      #..............#
+      #....ppp.......#
+scale = 1
+velocidad = 0
+iniciox = 0
+inicioy = 0
+
+[.]
+name = floor
+tile = 0, 3   # Suelo (columna 0, fila 3 del tileset)
+
+[#]
+name = wall
+wall = True   # Pared (columna 0, fila 1 del tileset)
+
+[P]
+name = pokemon
+state = True  # Hierba alta (columna 2, fila 0 del tileset)
+
+[E]
+name = exit
+state = False  # Salida (utilizada para puertas, definida según el mapa exterior)
+
+[I]
+name = inicio
+state = True   # Punto de inicio (columna 4, fila 0 del tileset)

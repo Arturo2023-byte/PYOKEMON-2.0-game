@@ -1,0 +1,34 @@
+[level]
+tileset = maps/tienda.png
+map = ################
+      ################
+      ################
+      #####V.....#####
+      #####V..........
+      #####V.....##..#
+      ######.....##..#
+      ...........##..#
+      .####......##..#
+      .####......##..#
+      ......I.........
+      #####CC#########
+scale = 1
+velocidad = 0
+iniciox = 0
+inicioy = 0
+
+[.]
+name = floor
+tile = 0, 3
+
+[#]
+name = wall
+wall = True
+
+[E]
+name = exit
+state = False
+
+[V]
+name = vender
+state = False
