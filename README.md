@@ -14,7 +14,7 @@ Tener instalado python (3) y pygame
 
 # JUGAR:
 
-Desde la terminal, en el directorio del juego Pokemon/ ejecutar:
+Desde la terminal, en el directorio del juego Pokemon/ejecutar:
  
  python Introduccion_PY3.py
  
